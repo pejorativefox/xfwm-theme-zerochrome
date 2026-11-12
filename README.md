@@ -98,6 +98,15 @@ drag the window body while holding `Alt`, or use `Alt` + `F7`.
 ## Uninstall
 
 ```sh
+./uninstall.sh
+```
+
+This removes `${XDG_DATA_HOME:-$HOME/.local/share}/themes/zerochrome` and,
+if zerochrome was the active theme, switches xfwm4 back to `Default`.
+
+You can also remove it manually:
+
+```sh
 rm -rf "${XDG_DATA_HOME:-$HOME/.local/share}/themes/zerochrome"
 ```
 
