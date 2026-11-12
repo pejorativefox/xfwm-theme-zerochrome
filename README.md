@@ -41,8 +41,9 @@ or install and activate it in one step:
 ./install.sh --set
 ```
 
-The change is applied immediately by a running xfwm4. If you are not running
-the Xfce settings daemon, restart the window manager with:
+`--set` also forces a running xfwm4 to reload, even if zerochrome was already
+the configured theme. If you are not running the Xfce settings daemon, restart
+the window manager with:
 
 ```sh
 xfwm4 --replace
