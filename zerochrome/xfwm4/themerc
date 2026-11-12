@@ -1,0 +1,36 @@
+# zerochrome - a decorationless xfwm4 theme.
+#
+# This theme intentionally contains no image files.  xfwm4 derives the
+# frame extents (title bar height, border widths and button sizes) from
+# the dimensions of the theme's images, so with no images every extent
+# is zero and windows are mapped with no window-manager chrome at all.
+#
+# Do not add PNG/XPM files here unless you actually want decorations
+# back.
+#
+# See README.md for installation and usage notes.
+
+# Title text is never drawn, but keep these defined and predictable.
+active_text_color=#ffffff
+inactive_text_color=#ffffff
+title_shadow_active=false
+title_shadow_inactive=false
+title_vertical_offset_active=0
+title_vertical_offset_inactive=0
+title_horizontal_offset=0
+
+# No buttons, icons or spacing.
+button_offset=0
+button_spacing=0
+show_app_icon=false
+
+# No extra top border, and no offset for maximized windows.
+frame_border_top=0
+maximized_offset=0
+
+# Keep the compositor from adding drop shadows based on this theme.
+shadow_opacity=0
+shadow_delta_x=0
+shadow_delta_y=0
+shadow_delta_width=0
+shadow_delta_height=0
